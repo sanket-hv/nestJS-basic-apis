@@ -7,7 +7,6 @@ import {
   Post,
   Query,
 } from '@nestjs/common';
-import { query } from 'express';
 import { CoursesService } from './courses.service';
 import { CreateCourseDto } from './create-course.dto';
 
